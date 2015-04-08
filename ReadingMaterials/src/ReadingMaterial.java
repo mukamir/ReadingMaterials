@@ -22,7 +22,7 @@ public class ReadingMaterial
 	
 	public ReadingMaterial()
 	{
-		this.title 			= DEFAULT_TITLE;
+		this.title          = DEFAULT_TITLE;
 		this.editor         = DEFAULT_EDITOR;
 		this.numberOfPages  = DEFAULT_NUMBER_OF_PAGES;
 		this.yearPublished  = DEFAULT_YEAR_PUBLISHED;
@@ -32,8 +32,8 @@ public class ReadingMaterial
 	public ReadingMaterial( String title, String editor, int numberOfPages, int yearPublished )
 	{
 		
-		this.title 		   = title;
-		this.editor		   = editor;
+		this.title 	   = title;
+		this.editor	   = editor;
 		this.numberOfPages = numberOfPages;
 		this.yearPublished = yearPublished;
 	
@@ -66,7 +66,7 @@ public class ReadingMaterial
 	@Override
 	public String toString()
 	{
-		return "             Title: "                + getTitle() + 
+		return     "             Title: "                + getTitle() + 
 			   "\n             Editor: "             + getEditor() + 
 			   "\n             NumberOfPages: "      + getNumberOfPages() +
 			   "\n             Year Published: "     + getYearPublished();
