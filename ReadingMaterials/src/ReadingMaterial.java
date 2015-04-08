@@ -4,8 +4,8 @@ public class ReadingMaterial
 
 	/*** Class Constants ***/
 
-	private final String DEFAULT_TITLE    		 = "Java is Fun!";
-	private final String DEFAULT_EDITOR          = "John Doe";
+	private final String DEFAULT_TITLE         = "Java is Fun!";
+	private final String DEFAULT_EDITOR        = "John Doe";
 	private final int  DEFAULT_NUMBER_OF_PAGES = 150;
 	private final int  DEFAULT_YEAR_PUBLISHED  = 2015;        
 
